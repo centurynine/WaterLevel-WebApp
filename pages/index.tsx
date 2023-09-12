@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="Water Level"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main id="home">
         <section className="bg-white min-h-screen">
           <Nav />
           <Info />
