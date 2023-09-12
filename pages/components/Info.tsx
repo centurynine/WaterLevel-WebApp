@@ -94,7 +94,7 @@ function Info() {
           {/* Node */}
           {isVisible && (
           <div > 
-          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-24 mb-20 slide-in-from-left">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-24 mb-20 md:slide-in-from-left">
             <div className="">
               <Image
                 src={motherboard}
@@ -117,7 +117,7 @@ function Info() {
 
           {/* Wifi */}
 
-          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 slide-in-from-right">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 md:slide-in-from-right">
             <div className="flex flex-col">
               <span className="text-6xl my-10 text-slate-800">Connection</span>
 
@@ -140,7 +140,7 @@ function Info() {
 
           {/* Firebase */}
 
-          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 slide-in-from-left">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 md:slide-in-from-left">
             <div className="">
               <Image
                 src={database}
@@ -164,7 +164,7 @@ function Info() {
           {/* Application */}
           <div className="" id="element4"></div>
 
-          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 slide-in-from-right">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 md:slide-in-from-right">
             <div className="flex flex-col">
               <span className="text-6xl my-10 text-slate-800">
                 Mobile Application
