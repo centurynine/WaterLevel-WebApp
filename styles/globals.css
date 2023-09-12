@@ -46,3 +46,32 @@ body {
 .unhidden {
   display: contents;
 }
+
+.slide-in-from-left {
+  position: relative;
+  animation: slide-in-from-left 2s ease-in-out;
+}
+
+.slide-in-from-right {
+  position: relative;
+  animation: slide-in-from-right 2s ease-in-out;
+}
+
+
+@keyframes slide-in-from-left {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide-in-from-right {
+  0% {
+    right: -50%;
+  }
+  100% {
+    right: 0;
+  }
+}
