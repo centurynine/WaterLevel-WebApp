@@ -66,7 +66,7 @@ function Info() {
         className="flex flex-col xl:flex-row items-center justify-center mt-40"
       >
         <div className=" mb-20 md:mb-10 md:ml-56 md:mr-40 flex flex-col items-center justify-center ">
-          <span className="my-2 justify-center text-2xl md:text-6xl text-cyan-500 flex flex-row gap-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
+          <span className="my-2 justify-center text-4xl md:text-6xl text-cyan-500 flex flex-row gap-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
             <TypewriterComponent
               options={{
                 strings: "Water Level Project.",
@@ -75,13 +75,13 @@ function Info() {
               }}
             />
           </span>
-          <div className=" flex flex-row gap-2 justify-center text-3xl md:text-4xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
+          <div className=" flex flex-row gap-2 justify-center text-xl md:text-4xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400 text-center">
             <span className="mb-32">
               Flood Warning System Around the Drain Area.
             </span>
           </div>
           <ImageGallery items={images} />
-          <p className="text-slate-700 text-1xl md:text-2xl mr-5 text-center"></p>
+          <p className="text-slate-700 text-1xl md:text-1xl mr-5 text-center"></p>
         </div>
       </div>
       <hr className="mx-60" id="element"></hr>
@@ -94,7 +94,7 @@ function Info() {
           {/* Node */}
           {isVisible && (
           <div > 
-          <div className="flex flex-row justify-center items-center gap-x-44 mb-20 slide-in-from-left">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-24 mb-20 slide-in-from-left">
             <div className="">
               <Image
                 src={motherboard}
@@ -106,10 +106,10 @@ function Info() {
             <div className="flex flex-col">
               <span className="text-6xl my-10 text-slate-800">Node</span>
 
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 อุปกรณ์ที่ทำหน้าที่รับข้อมูลจากเซ็นเซอร์เพื่อ
               </span>
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 วัดระดับน้ำแล้วส่งค่าไปยังฐานข้อมูล
               </span>
             </div>
@@ -117,14 +117,14 @@ function Info() {
 
           {/* Wifi */}
 
-          <div className="flex flex-row justify-center items-center gap-x-44 mb-40 slide-in-from-right">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 slide-in-from-right">
             <div className="flex flex-col">
               <span className="text-6xl my-10 text-slate-800">Connection</span>
 
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 ใช้การสื่อสารผ่านระบบอินเทอร์เน็ต
               </span>
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 โดยใช้แอร์การ์ดเป็นตัวกระจายสัญญาณให้ Node
               </span>
             </div>
@@ -140,7 +140,7 @@ function Info() {
 
           {/* Firebase */}
 
-          <div className="flex flex-row justify-center items-center gap-x-44 mb-40 slide-in-from-left">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 slide-in-from-left">
             <div className="">
               <Image
                 src={database}
@@ -152,10 +152,10 @@ function Info() {
             <div className="flex flex-col">
               <span className="text-6xl my-10 text-slate-800">Firebase</span>
 
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 ฐานข้อมูลซึ่งทำหน้าที่เก็บข้อมูลที่ได้รับมาจาก Node
               </span>
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 และเป็นสื่อกลางในการส่งข้อมูลระหว่าง Node และ Application
               </span>
             </div>
@@ -164,15 +164,15 @@ function Info() {
           {/* Application */}
           <div className="" id="element4"></div>
 
-          <div className="flex flex-row justify-center items-center gap-x-44 mb-40 slide-in-from-right">
+          <div className="flex flex-row justify-center items-center gap-x-2 px-10 md:px-0 md:gap-x-44 mb-40 slide-in-from-right">
             <div className="flex flex-col">
               <span className="text-6xl my-10 text-slate-800">
                 Mobile Application
               </span>
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 แอปพลิเคชันที่ทำหน้าที่แสดงผลข้อมูลประวัติระดับน้ำ
               </span>
-              <span className="text-2xl text-slate-700">
+              <span className="text-xl md:text-2xl text-slate-700">
                 และแจ้งเตือนเมื่อระดับน้ำมีการเพิ่มสูงขึ้นหรือต่ำลง
               </span>
             </div>
@@ -181,7 +181,7 @@ function Info() {
                 src={smartphone}
                 alt="smartphone"
                 width={270}
-                className=" object-center mx-auto w-2/3 xl:w-full hover:scale-110 transition"
+                className="object-center mx-auto w-3/3 xl:w-full hover:scale-110 transition"
               />
             </div>
           </div>

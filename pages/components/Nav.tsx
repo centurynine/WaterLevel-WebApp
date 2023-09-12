@@ -12,7 +12,7 @@ function Nav() {
         <h1 className="text-2xl font-burtons ">WATER LEVEL</h1></div>
       <ul>
         <div className="flex flex-row space-x-4 mr-10">
-          <div className="flex-row gap-4 hidden sm:hidden md:flex md:gap-4">
+          <div className="flex-row gap-4 hidden  sm:flex md:gap-4">
             <li>
               <a href="#home" className="hover:text-cyan-500 transition">
                 Home
@@ -33,7 +33,7 @@ function Nav() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Install
+              Download
             </a>
           </li>
         </div>
