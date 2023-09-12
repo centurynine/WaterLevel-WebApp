@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Nav from './components/Nav'
 import Head from 'next/head'
 import Info from './components/Info'
+import About from './components/About'
  
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
      <section className='bg-white min-h-screen' >
       <Nav/>
       <Info/>
+      <About/>
      </section> 
     </main>
     </div>
