@@ -60,16 +60,16 @@ function Info() {
 
   
   return (
-    <div id="info">
+    <div>
       <div
-        id="info"
+         
         className="flex flex-col xl:flex-row items-center justify-center mt-40"
       >
         <div className=" mb-20 md:mb-10 md:ml-56 md:mr-40 flex flex-col items-center justify-center ">
           <span className="my-2 justify-center text-2xl md:text-6xl text-cyan-500 flex flex-row gap-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
             <TypewriterComponent
               options={{
-                strings: "Water Level",
+                strings: "Water Level Project.",
                 autoStart: true,
                 loop: true,
               }}
@@ -77,7 +77,7 @@ function Info() {
           </span>
           <div className=" flex flex-row gap-2 justify-center text-3xl md:text-4xl font-medium bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-400">
             <span className="mb-32">
-              Flood Warning System Around the Drain Area
+              Flood Warning System Around the Drain Area.
             </span>
           </div>
           <ImageGallery items={images} />
@@ -88,12 +88,12 @@ function Info() {
       <div className="flex flex-col pt-10 " id="element1">
         <div className="text-center">
           <div className="flex flex-row gap-2 justify-center text-3xl md:text-4xl font-medium bg-clip-text text-cyan-500 ">
-            <span className="mb-2">ขั้นตอนการทำงานของระบบ</span>
+            <span className="mb-2"  id="info">ขั้นตอนการทำงานของระบบ</span>
           </div>
            
           {/* Node */}
           {isVisible && (
-          <div> 
+          <div > 
           <div className="flex flex-row justify-center items-center gap-x-44 mb-20 slide-in-from-left">
             <div className="">
               <Image
