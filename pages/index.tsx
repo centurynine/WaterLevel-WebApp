@@ -9,7 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
+    
     <div>
+      <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet"/>
       <Head>
         <title>Water Level</title>
         <meta name="Water Level"></meta>

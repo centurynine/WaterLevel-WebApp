@@ -12,7 +12,7 @@ function Nav() {
         <h1 className="hidden sm:flex text-2xl font-burtons ">WATER LEVEL</h1></div>
       <ul>
         <div className="flex flex-row space-x-4 mr-10">
-          <div className="flex-row gap-4 hidden  sm:flex md:gap-4">
+          <div className="flex gap-4 md:gap-4 text-slate-800">
             <li>
               <a href="#home" className="hover:text-cyan-500 transition">
                 Home
@@ -29,7 +29,7 @@ function Nav() {
             <a
               className="bg-gradient-to-r from-cyan-500 to-blue-400 
                  text-white px-4 py-2 border-none rounded-2xl ml-4 hover:opacity-80 transition"
-              href=""
+              href="https://drive.google.com/file/d/1GNFcbTrnXjPAAuJIW_Khufo42jPcpUgs/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
