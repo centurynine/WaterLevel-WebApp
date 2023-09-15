@@ -29,7 +29,7 @@ function Nav() {
             <a
               className="bg-gradient-to-r from-cyan-500 to-blue-400 
                  text-white px-4 py-2 border-none rounded-2xl ml-4 hover:opacity-80 transition"
-              href="https://drive.google.com/file/d/1GNFcbTrnXjPAAuJIW_Khufo42jPcpUgs/view?usp=sharing"
+              href="https://play.google.com/store/apps/details?id=com.rmutt.waterlevel"
               target="_blank"
               rel="noopener noreferrer"
             >
