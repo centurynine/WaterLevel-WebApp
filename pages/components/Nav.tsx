@@ -23,7 +23,11 @@ function Nav() {
                 Info
               </a>
             </li>
-           
+            <li>
+              <a href="#about" className="hover:text-cyan-500 transition">
+                About Us
+              </a>
+            </li>
           </div>
           <li>
             <a

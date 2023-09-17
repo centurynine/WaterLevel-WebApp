@@ -21,7 +21,7 @@ export default function Home() {
         <section className="bg-white min-h-screen">
           <Nav />
           <Info />
-        
+          <About />
         </section>
       </main>
     </div>
