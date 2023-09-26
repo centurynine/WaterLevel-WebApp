@@ -17,8 +17,7 @@ function Nav() {
     <nav className="pt-10 pb-4 mb-12 flex justify-between pl-10 sticky top-0 z-10 bg-white">
       <div className="flex flex-row gap-3">
         <Image src={logo} alt="logo" width={30} />
-
-        <h1 className="hidden sm:flex text-2xl font-burtons ">WATER LEVEL</h1>
+        <span className="hidden sm:flex text-2xl">WATER LEVEL</span>
       </div>
       <ul>
         <div className="flex flex-row space-x-4 mr-10">
