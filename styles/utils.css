@@ -1,78 +1,47 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Kanit');
-
-@import "~react-image-gallery/styles/css/image-gallery.css";
-* {
-  font-family: 'Kanit', sans-serif;
-  scroll-behavior: smooth;
-  scrollbar-color: #89B3F5 #fbf6f1;
-}
- 
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
- 
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    scroll-behavior: smooth;
-}
-
-.color-black {
-  background-color: rgb(29, 28, 26);
-}
-
-.Typewriter__cursor {
-  color: #89B3F5;
-}
-
-.unhidden {
-  display: contents;
-}
-
-.slide-in-from-left {
+.Btn {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s;
+  cursor: pointer;
   position: relative;
-  animation: slide-in-from-left 2s ease-in-out;
+  background-color: rgb(31, 31, 31);
+  overflow: hidden;
 }
 
-.slide-in-from-right {
-  position: relative;
-  animation: slide-in-from-right 2s ease-in-out;
+.svgIcon {
+  transition-duration: .3s;
 }
 
-
-@keyframes slide-in-from-left {
-  0% {
-    left: -50%;
-  }
-  100% {
-    left: 0;
-  }
+.svgIcon path {
+  fill: white;
 }
 
-@keyframes slide-in-from-right {
-  0% {
-    right: -50%;
-  }
-  100% {
-    right: 0;
-  }
+.textgit {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  font-weight: 100;
+  opacity: 0;
+  transition-duration: .4s;
+}
+
+.Btn:hover {
+  width: 110px;
+  transition-duration: .4s;
+  border-radius: 30px;
+}
+
+.Btn:hover .textgit {
+  opacity: 1;
+  transition-duration: .4s;
+}
+
+.Btn:hover .svgIcon {
+  opacity: 0;
+  transition-duration: .3s;
 }
