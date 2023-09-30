@@ -20,7 +20,7 @@ function Nav() {
         <span className="hidden sm:flex text-2xl">WATER LEVEL</span>
       </div>
       <ul>
-        <div className="flex flex-row space-x-4 mr-10">
+        <div className="flex flex-row space-x-4 mr-4 md:mr-10">
           <div className="flex gap-4 md:gap-4 text-slate-800">
             <li>
               <a href="#home" className="hover:text-cyan-500 transition">
