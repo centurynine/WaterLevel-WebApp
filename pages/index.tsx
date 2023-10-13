@@ -5,6 +5,7 @@ import Head from "next/head";
 import Info from "./components/Info";
 import About from "./components/About";
 import Bottom from "./components/Bottom";
+import Tools from "./components/Tools";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
         <section className="bg-white min-h-screen">
           <Nav />
           <Info />
+          <Tools />
           <About />
           <Bottom />
         </section>

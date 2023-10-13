@@ -5,7 +5,7 @@ import Image from "next/image";
 function About() {
   return (
     <div className="flex flex-col" id="about">
-      <div className="text-center text-5xl my-10">About Us</div>
+      <div className="text-center text-5xl my-10">เกี่ยวกับเรา</div>
       <div className="flex px-3 flex-col text-center gap-y-4 justify-center items-center">
         <div className="text-2xl  ">
           นักศึกษาวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ ชั้นปีที่ 4

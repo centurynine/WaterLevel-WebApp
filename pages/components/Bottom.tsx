@@ -6,7 +6,7 @@ import Image from "next/image";
 function Bottom() {
   return (
     <div className="bottom-0 w-full z-10">
-      <div className="flex flex-row justify-center mr-10 mb-10 gap-10">
+      <div className="flex flex-row justify-center mb-10 gap-10">
         <div id="ios" className="">
           <a
             href="https://apps.apple.com/th/app/water-level/id6466616498?l=th"
