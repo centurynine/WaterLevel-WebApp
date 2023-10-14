@@ -6,6 +6,7 @@ import Info from "./components/Info";
 import About from "./components/About";
 import Bottom from "./components/Bottom";
 import Tools from "./components/Tools";
+import Source from "./components/Source";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,8 +25,10 @@ export default function Home() {
           <Nav />
           <Info />
           <Tools />
+          <Source />
           <About />
           <Bottom />
+          
         </section>
       </main>
     </div>
